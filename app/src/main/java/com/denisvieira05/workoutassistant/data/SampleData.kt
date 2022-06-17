@@ -1,4 +1,6 @@
-package com.denisvieira05.workoutassistant
+package com.denisvieira05.workoutassistant.data
+
+import com.denisvieira05.workoutassistant.model.Message
 
 object SampleData {
     // Sample conversation data
@@ -58,6 +60,9 @@ object SampleData {
         ),
         Message(
             "Colleague",
+            "Compose Previews are great to check quickly how a composable layout looks like"+
+            "Compose Previews are great to check quickly how a composable layout looks like"+
+            "Compose Previews are great to check quickly how a composable layout looks like"+
             "Compose Previews are great to check quickly how a composable layout looks like"
         ),
         Message(
