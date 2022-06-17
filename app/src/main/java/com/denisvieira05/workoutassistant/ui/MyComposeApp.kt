@@ -14,6 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.denisvieira05.workoutassistant.data.SampleData
 import com.denisvieira05.workoutassistant.ui.screens.Conversation
 import com.denisvieira05.workoutassistant.ui.screens.OnboardingScreen
+import com.denisvieira05.workoutassistant.ui.screens.welness.WellnessScreen
 import com.denisvieira05.workoutassistant.ui.theme.WorkoutAssistantTheme
 
 @Preview(name = "Light Mode")
@@ -41,7 +42,8 @@ fun MyApp() {
             if (shouldShowOnboarding) {
                 OnboardingScreen(onContinueClicked = { shouldShowOnboarding = false })
             } else {
-                Conversation(SampleData.conversationSample)
+                WellnessScreen()
+//                Conversation(SampleData.conversationSample)
             }
         }
     }
