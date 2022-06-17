@@ -1,4 +1,4 @@
-package com.denisvieira05.workoutassistant.ui.theme
+package com.denisvieira05.workoutassistant.app.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

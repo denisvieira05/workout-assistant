@@ -1,9 +1,9 @@
-package com.denisvieira05.workoutassistant.ui
+package com.denisvieira05.workoutassistant.app.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.denisvieira05.workoutassistant.ui.theme.WorkoutAssistantTheme
+import com.denisvieira05.workoutassistant.app.ui.theme.WorkoutAssistantTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package com.denisvieira05.workoutassistant.ui.screens
+package com.denisvieira05.workoutassistant.app.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

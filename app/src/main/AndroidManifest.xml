@@ -16,7 +16,7 @@
         android:theme="@style/Theme.WorkoutAssistant"
         tools:targetApi="31">
         <activity
-            android:name=".ui.MainActivity"
+            android:name="com.denisvieira05.workoutassistant.app.ui.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.WorkoutAssistant">
             <intent-filter>

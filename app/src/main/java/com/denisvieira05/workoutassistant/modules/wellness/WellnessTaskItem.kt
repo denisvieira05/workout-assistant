@@ -1,4 +1,4 @@
-package com.denisvieira05.workoutassistant.modules.welness
+package com.denisvieira05.workoutassistant.modules.wellness
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding

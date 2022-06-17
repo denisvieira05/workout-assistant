@@ -1,4 +1,4 @@
-package com.denisvieira05.workoutassistant.ui.utils
+package com.denisvieira05.workoutassistant.app.ui.utils
 
 import androidx.compose.ui.graphics.Color
 import android.graphics.Color as ColorGraphics

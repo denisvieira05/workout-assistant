@@ -1,4 +1,4 @@
-package com.denisvieira05.workoutassistant.ui.components
+package com.denisvieira05.workoutassistant.app.ui.components
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
@@ -18,10 +18,10 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.denisvieira05.workoutassistant.R
-import com.denisvieira05.workoutassistant.data.SampleData
-import com.denisvieira05.workoutassistant.model.Message
-import com.denisvieira05.workoutassistant.ui.theme.WorkoutAssistantTheme
-import com.denisvieira05.workoutassistant.ui.utils.getRandomColor
+import com.denisvieira05.workoutassistant.app.data.SampleData
+import com.denisvieira05.workoutassistant.app.model.Message
+import com.denisvieira05.workoutassistant.app.ui.theme.WorkoutAssistantTheme
+import com.denisvieira05.workoutassistant.app.ui.utils.getRandomColor
 
 @Preview
 @Composable

@@ -1,4 +1,4 @@
-package com.denisvieira05.workoutassistant.ui.components
+package com.denisvieira05.workoutassistant.app.ui.components
 
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.Spring

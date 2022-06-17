@@ -1,16 +1,11 @@
-package com.denisvieira05.workoutassistant.ui.screens
+package com.denisvieira05.workoutassistant.app.ui.screens
 
-import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowUp
@@ -18,15 +13,13 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.denisvieira05.workoutassistant.data.SampleData
-import com.denisvieira05.workoutassistant.model.Message
-import com.denisvieira05.workoutassistant.ui.components.MessageCard
-import com.denisvieira05.workoutassistant.ui.theme.WorkoutAssistantTheme
+import com.denisvieira05.workoutassistant.app.data.SampleData
+import com.denisvieira05.workoutassistant.app.model.Message
+import com.denisvieira05.workoutassistant.app.ui.components.MessageCard
+import com.denisvieira05.workoutassistant.app.ui.theme.WorkoutAssistantTheme
 import kotlinx.coroutines.launch
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextLayoutResult
-import com.denisvieira05.workoutassistant.R
 
 @Composable
 fun Conversation(messages: List<Message>) {

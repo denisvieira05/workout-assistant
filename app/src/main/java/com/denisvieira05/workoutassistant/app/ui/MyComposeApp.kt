@@ -1,4 +1,4 @@
-package com.denisvieira05.workoutassistant.ui
+package com.denisvieira05.workoutassistant.app.ui
 
 import android.content.res.Configuration
 import androidx.compose.foundation.layout.fillMaxSize
@@ -11,9 +11,9 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.denisvieira05.workoutassistant.ui.screens.OnboardingScreen
-import com.denisvieira05.workoutassistant.modules.welness.WellnessScreen
-import com.denisvieira05.workoutassistant.ui.theme.WorkoutAssistantTheme
+import com.denisvieira05.workoutassistant.app.ui.screens.OnboardingScreen
+import com.denisvieira05.workoutassistant.modules.wellness.WellnessScreen
+import com.denisvieira05.workoutassistant.app.ui.theme.WorkoutAssistantTheme
 
 @Preview(name = "Light Mode")
 @Preview(

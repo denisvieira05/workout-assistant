@@ -1,6 +1,6 @@
-package com.denisvieira05.workoutassistant.data
+package com.denisvieira05.workoutassistant.app.data
 
-import com.denisvieira05.workoutassistant.model.Message
+import com.denisvieira05.workoutassistant.app.model.Message
 
 object SampleData {
     // Sample conversation data

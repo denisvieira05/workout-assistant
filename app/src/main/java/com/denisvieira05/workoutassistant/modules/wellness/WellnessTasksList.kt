@@ -1,4 +1,4 @@
-package com.denisvieira05.workoutassistant.modules.welness
+package com.denisvieira05.workoutassistant.modules.wellness
 
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
