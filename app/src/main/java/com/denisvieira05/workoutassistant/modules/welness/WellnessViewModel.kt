@@ -1,10 +1,10 @@
-package com.denisvieira05.workoutassistant.ui.screens.welness
+package com.denisvieira05.workoutassistant.modules.welness
 
 import androidx.compose.runtime.toMutableStateList
 import androidx.lifecycle.ViewModel
 
 class WellnessViewModel : ViewModel() {
-    private val _tasks = getWellnessTasks().toMutableStateList()
+    private val _tasks = getWellneswsTasks().toMutableStateList()
     val tasks: List<WellnessTask>
         get() = _tasks
 

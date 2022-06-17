@@ -1,4 +1,4 @@
-package com.denisvieira05.workoutassistant.ui.screens.welness
+package com.denisvieira05.workoutassistant.modules.welness
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
